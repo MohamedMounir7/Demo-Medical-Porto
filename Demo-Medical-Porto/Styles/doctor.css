@@ -1,0 +1,48 @@
+.Doc {
+  padding: 60px 0;
+  display: none;
+}
+
+.Doc h2 {
+  color: black;
+}
+
+.Doc .cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Doc .Dyago {
+  width: 60%;
+}
+
+.Doc .Dyago .lelo {
+  color: darkgrey;
+}
+
+.Doc .Dyago p {
+  line-height: 1;
+  /* margin-top: 15px; */
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.Doc .Dyago li {
+  color: darkgrey;
+  margin: 4px;
+}
+
+.Doc img {
+  width: 30%;
+}
+
+.Doc .Dyago button {
+  padding-bottom: 8px;
+  margin-bottom: 18px;
+}
+
+.Doc .Dyago .mego {
+  padding: 0px;
+  margin: 0px;
+}

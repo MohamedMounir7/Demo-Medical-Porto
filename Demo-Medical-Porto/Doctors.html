@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctors</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/aed33ef1f0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./Styles/index.css" />
+    <link rel="stylesheet" href="./Styles/doctor.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+
+    <header class="bg-light">
+      <div class="container">
+        <div class="d-flex justify-content-end">
+          <div class="p-1">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="text-secondary">
+            <p>1234 Street Name, City Name</p>
+          </div>
+          <div class="p-1">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="text-secondary">
+            <p>123-456-7890</p>
+          </div>
+          <div class="p-1">
+            <i class="far fa-envelope"></i>
+          </div>
+          <div class="text-secondary">
+            <p>mail@domain.com</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- navbar -->
+
+    <nav
+      class="navbar navbar-expand-lg sticky-top navbar-light d-flex"
+      style="background-color: #e3f2fd"
+    >
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          href="https://www.okler.net/previews/porto/9.1.0/demo-medical.html"
+        >
+          <img
+            src="./Images/logo-medical.png"
+            alt=""
+            width="300px"
+            height="50px"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <div
+          class="collapse navbar-collapse d-flex justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase fs-6"
+                aria-current="page"
+                href="Index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fs-6" href="About.html"
+                >About US</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fs-6" href="Department.html"
+                >Departments</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-uppercase fs-6" href="Doctors.html"
+                >Doctors</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fs-6" href="Resourse.html"
+                >Resourses</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fs-6" href="Insurance.html"
+                >Insurance</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fs-6" href="Contact.html"
+                >Contact US</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- heading -->
+
+    <div class="koky">
+      <div class="container">
+        <h2>Doctors</h2>
+        <p>Learn more About our doctors</p>
+      </div>
+    </div>
+
+    <!-- Discription doctor -->
+
+    <div class="container" id="singleDoctor">
+      <div class="Doc">
+        <div class="cont">
+          <img src="./Images/doctor-1.jpg" />
+          <div class="Dyago">
+            <h1>John Doe</h1>
+            <p>DOCTOR BIO</p>
+            <p class="lelo">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              tempus nibh sed elimttis adipiscing. Fusce in hendrerit purus.
+              Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris.
+              Donec nisi libero, adipiscing id pretium eget, consectetur sit
+              amet leo. Nam at eros quis mi egestas fringilla non nec purus.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              tempus nibh sed elimttis adipiscing. Fusce in hendrerit purus.
+              Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris.
+              Donec nisi libero, adipiscing id pretium eg et, consectetur sit
+              amet leo
+            </p>
+            <button type="button" class="btn btn-primary">
+              Doctor Timetable
+            </button>
+            <p class="mego">PROCEDURES</p>
+            <br />
+            <li>Surgeries</li>
+            <li>Neck Pain</li>
+            <li>Cervical Myelopathy</li>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Doctors -->
+
+    <div class="doctor">
+      <div class="container">
+        <h2>Meet our Specialists</h2>
+        <p style="color: gray">
+          At Porto Medical, we offer a wide array of departments, gravida nibh
+          vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+          auctor.
+        </p>
+        <div class="row">
+          <div class="col-sm-12 col-md-3" onclick="toggleText()">
+            <div class="img">
+              <img src="./Images/doctor-1.jpg" alt="" />
+            </div>
+            <div class="text" onclick="toggleText()">
+              <p>Cardiology</p>
+              <h5>
+                John Doe <img src="./Images/arrow-right-circle.svg" alt="" />
+              </h5>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3" onclick="toggleText()">
+            <div class="img">
+              <img src="./Images/doctor-2.jpg" alt="" />
+            </div>
+            <div class="text">
+              <p>Gastroenterology</p>
+              <h5>
+                Robin Doe<img src="./Images/arrow-right-circle.svg" alt="" />
+              </h5>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3" onclick="toggleText()">
+            <div class="img">
+              <img src="./Images/doctor-3.jpg" alt="" />
+            </div>
+            <div class="text">
+              <p>Pulmonology</p>
+              <h5>
+                Mailk Doe<img src="./Images/arrow-right-circle.svg" alt="" />
+              </h5>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3" onclick="toggleText()">
+            <div class="img">
+              <img src="./Images/doctor-4.jpg" alt="" />
+            </div>
+            <div class="text">
+              <p>Dental</p>
+              <h5>
+                Rose Doe<img src="./Images/arrow-right-circle.svg" alt="" />
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+      <div class="container text-white p-3">
+        <div class="footer row">
+          <div class="col-3">
+            <h4>Location</h4>
+            <br />
+            <p>Porto Medical</p>
+            <p>123 Porto, 2345</p>
+            <p>new york</p>
+            <p>phone : 123-456-7890</p>
+          </div>
+          <div class="col-3">
+            <h4>Opening Hours</h4>
+            <br />
+            <p>Mon-Fri : 8:30 am to 5:00pm</p>
+            <p>Saturday : 9:30 am to 1:00pm</p>
+            <p>Sunday : closed</p>
+          </div>
+          <div class="col-3">
+            <h4>Emergency Cases</h4>
+            <br />
+            <p class="fs-3">(800)123-4657</p>
+          </div>
+          <div class="col-3">
+            <h4>Social Media</h4>
+            <br />
+            <div class="d-flex">
+              <a class="w-25" href="https://www.facebook.com/"
+                ><img src="./Images/facebook.svg" alt=""
+              /></a>
+              <a class="w-25" href="https://twitter.com/login"
+                ><img src="./Images/twitter.svg" alt=""
+              /></a>
+              <a class="w-25" href="https://www.linkedin.com/"
+                ><img src="./Images/linkedin.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/doctor.js"></script>
+  </body>
+</html>
